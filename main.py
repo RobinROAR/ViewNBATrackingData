@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 #绘图
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 import json
 from Event3D import Event
 

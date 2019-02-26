@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+﻿# -*- coding:utf-8 -*-
 from Constant import Constant
 from Moment import Moment
 from Team import Team
@@ -138,7 +138,7 @@ class Event:
         Y1 = np.arange(0,50,stepY)
         X1, Y1 = np.meshgrid(X1,Y1)
 
-        ax.plot_surface(X1,Y1,0, rstride = 1, cstride=1,  facecolors = court, shade = False)
+        ax.plot_surface(X1,Y1,np.atleast_2d(0.0), rstride = 1, cstride=1,  facecolors = court, shade = False)
 
         plt.show()
 
